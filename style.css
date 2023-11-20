@@ -297,3 +297,127 @@ main #totens #totens-text h3 {
 main #totens img {
   max-width: 400px;
 }
+
+footer {
+  display: flex;
+  background-color: #000;
+  padding: 6rem 9.5rem;
+  gap: 6.1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer #contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+footer #contact-info h2 {
+  font-family: "Open Sans";
+  color: #fff;
+  font-weight: 700;
+}
+
+footer #contact-info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+footer #contact-info ul .social-media-info {
+  display: flex;
+  align-items: center;
+  gap: 0.95rem;
+}
+
+footer #contact-info ul img {
+  max-width: 3.5rem;
+}
+
+footer #contact-info ul li .footer-li-text {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer #know-more-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 2rem 2rem 1.69rem 2rem;
+  border-radius: 5px;
+  gap: 3rem;
+}
+
+footer #know-more-form h2 {
+  color: #445520;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+footer #know-more-form #input-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Inter";
+  color: #000;
+  font-weight: 400rem;
+  font-size: 1rem;
+}
+
+footer #know-more-form #input-fields .input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+footer #know-more-form #input-fields .input-container .required-signal {
+  color: red;
+}
+
+footer #know-more-form #input-fields .input-container .text-input-field {
+  width: 32rem;
+  height: 2.625rem;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 5px;
+}
+footer #know-more-form #input-fields #check-input-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+footer #know-more-form #input-fields #check-input-field label {
+  color: #676666;
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 400;
+  padding-top: 1.3rem;
+}
+
+footer #submit-button {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2.4rem;
+  gap: 1rem;
+  width: 14.9375rem;
+  border: none;
+  border-radius: 6px;
+  background: #45b1e8;
+  font-family: "Roboto";
+  font-size: 1.7rem;
+  color: #fff8e7;
+  font-weight: 700;
+  cursor: pointer;
+  align-self: center;
+}
+
+footer #submit-button:hover {
+  background: #2d98ce;
+}
