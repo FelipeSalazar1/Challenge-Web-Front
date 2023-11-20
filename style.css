@@ -298,6 +298,36 @@ main #totens img {
   max-width: 400px;
 }
 
+main #wallpapers {
+  display: flex;
+  background-color: #fff8e7;
+  padding: 6rem 9.5rem;
+  gap: 6.1rem;
+  align-items: center;
+}
+
+main #wallpapers #wallpapers-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2.13rem;
+}
+
+main #wallpapers #wallpapers-text h2 {
+  font-family: "Open Sans";
+  color: #45b1e8;
+  font-weight: 700;
+}
+
+main #wallpapers #wallpapers-text h3 {
+  color: #696969;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+}
+
+main #wallpapers img {
+  max-width: 400px;
+}
+
 footer {
   display: flex;
   background-color: #000;
