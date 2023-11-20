@@ -173,7 +173,121 @@
         </section>
       </main>
 
-      <footer></footer>
+      <footer>
+        <div id="contact-info">
+          <h2>Fale Conosco</h2>
+
+          <ul>
+            <li class="social-media-info">
+              <img src="./src/empty-email-svgrepo-com.svg" />
+              <a
+                class="footer-li-text"
+                href="mailto:atendimento@icrconecta.com.br"
+                >atendimento@icrconecta.com.br</a
+              >
+            </li>
+            <li class="social-media-info">
+              <img src="./src/telephone-receiver-material-svgrepo-com.svg" />
+              <a class="footer-li-text" href="tel:(11)99999-9999"
+                >(11) 99999-9999</a
+              >
+            </li>
+            <li class="social-media-info">
+              <img src="./src/icons8-tiktok.svg" />
+              <a
+                class="footer-li-text"
+                href="https://www.tiktok.com/@icrconecta"
+                >@icrconecta</a
+              >
+            </li>
+            <li class="social-media-info">
+              <img src="./src/icons8-instagram.svg" />
+              <a
+                class="footer-li-text"
+                href="https://www.instagram.com/@icrconecta"
+                >@icrconecta</a
+              >
+            </li>
+            <li class="social-media-info">
+              <img src="./src/icons8-youtube.svg" />
+              <a
+                class="footer-li-text"
+                href="https://www.youtube.com/icrconecta"
+                >icrconecta</a
+              >
+            </li>
+            <li class="social-media-info">
+              <img src="./src/icons8-facebook.svg" />
+              <a
+                class="footer-li-text"
+                href="https://www.facebook.com/icrconecta"
+                >icrconecta</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div id="know-more-form">
+          <h2>
+            Preencha o formulário<br />
+            para receber mais informações
+          </h2>
+
+          <div id="input-fields">
+            <div class="input-container">
+              <label for="name"
+                >Nome<span class="required-signal">*</span></label
+              >
+              <input
+                type="text"
+                id="name"
+                class="text-input-field"
+                required=""
+              />
+            </div>
+
+            <div class="input-container">
+              <label for="email"
+                >E-mail<span class="required-signal">*</span></label
+              >
+              <input
+                type="text"
+                id="email"
+                class="text-input-field"
+                required=""
+              />
+            </div>
+
+            <div class="input-container">
+              <label for="telephone"
+                >Telefone<span class="required-signal">*</span></label
+              >
+              <input
+                type="text"
+                id="telephone"
+                class="text-input-field"
+                required=""
+              />
+            </div>
+
+            <div id="check-input-field">
+              <input type="checkbox" id="checkbox" />
+              <label for="checkbox"
+                >Concordo com o envio dos dados e autorizo o ICR Conecta a
+                entrar<br />
+                em contato comigo através deles.</label
+              >
+            </div>
+          </div>
+
+          <input
+            type="submit"
+            id="submit-button"
+            placeholder="ENVIAR"
+            onclick="validateForm()"
+          />
+        </div>
+      </footer>
     </div>
   </body>
 </html>
