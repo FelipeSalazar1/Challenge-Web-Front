@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+button {
+  padding: 1rem 2.4rem;
+  gap: 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #45b1e8;
+
+  color: #fff8e7;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2d98ce;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+}
+
+#app {
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 6.8rem;
+  padding: 3rem 9.5rem;
+  background-color: #fff8e7;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  line-height: 2.1rem;
+  color: #696969;
+}
+
+main #intro {
+  display: flex;
+  background-color: #ffcba4;
+  padding: 6rem 9.5rem;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+main .text-side {
+  display: grid;
+  gap: 2.5rem;
+}
+
+main #intro .text-side h1 {
+  color: #2d98ce;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 4.9rem;
+  font-weight: 400;
+  line-height: 5.8rem;
+}
+
+main #intro .text-side p {
+  color: #696969;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+}
+
+main #intro .text-side #buttons {
+  display: flex;
+  gap: 2.4rem;
+}
+
+main #intro .text-side #buttons #know-more {
+  width: 17.5rem;
+}
+
+main #intro .text-side #buttons #see-how-it-works {
+  display: flex;
+  align-items: center;
+
+  color: #464646;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+main #intro .text-side #buttons a img {
+  width: 5rem;
+}
+
+main #intro .image-side img {
+  border-radius: 1.5rem;
+}
+
+main #funcionalities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+  gap: 3.5rem;
+  background-color: #fff8e7;
+}
+
+main #funcionalities h2 {
+  width: 39.5rem;
+  color: #696969;
+  text-align: center;
+  font-size: 3.8rem;
+  font-weight: 400;
+  line-height: 4.9rem;
+}
+
+main #funcionalities h2 span {
+  color: #45b1e8;
+  font-weight: 700;
+}
+
+main #funcionalities h3 {
+  width: 55rem;
+  color: #696969;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  margin-bottom: 10rem;
+}
+
+main #funcionalities #card-wrapper {
+  display: flex;
+  gap: 3rem;
+}
+
+main #funcionalities #card-wrapper .card {
+  width: 19rem;
+  background-color: #3284ae;
+  border-radius: 2rem;
+  padding: 2.5rem 3rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  gap: 2rem;
+
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+main #funcionalities #card-wrapper .card:hover {
+  transform: rotateY(180deg);
+}
+
+.frontSide,
+.backSide {
+  position: absolute;
+  z-index: -1;
+  backface-visibility: hidden;
+  width: 22rem;
+  height: 18rem;
+  border-radius: 2rem;
+  display: grid;
+  place-items: center;
+  background-color: #3284ae;
+}
+
+.backSide {
+  transform: rotateY(180deg);
+}
+
+main #funcionalities #card-wrapper .card img {
+  background-color: #ffcba4;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+main #funcionalities #card-wrapper .card p {
+  color: #fff;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 115%;
+}
+
+main #papel3D {
+  display: flex;
+  background-color: #696969;
+  padding: 6rem 9.5rem;
+  gap: 6.1rem;
+  align-items: center;
+}
+
+main #papel3D .text-side h2 {
+  color: #fff;
+  font-size: 3.8rem;
+  font-weight: 400;
+  line-height: 114%;
+}
+
+main #papel3D .text-side h3 {
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+}
+
+main #papel3D .text-side .advantages {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+main #papel3D .text-side .advantages p {
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+}
+
+main #papel3D .text-side button {
+  width: 27.5rem;
+  padding: 2.4rem 2.4rem;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0.3;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.3;
+  }
+}
