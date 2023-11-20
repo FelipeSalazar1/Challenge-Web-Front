@@ -262,3 +262,38 @@ main #papel3D .text-side button {
     opacity: 0.3;
   }
 }
+
+main #totens {
+  display: flex;
+  background-color: #696969;
+  padding: 6rem 9.5rem;
+  gap: 6.1rem;
+  align-items: center;
+  border-width: 0.5rem;
+  border-top-style: solid;
+  border-color: #ffcba4;
+}
+
+main #totens #totens-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-self: flex-start;
+}
+
+main #totens #totens-text h2 {
+  font-family: "Open Sans";
+  color: #ffcba4;
+  font-weight: 700;
+}
+
+main #totens #totens-text h3 {
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+}
+main #totens img {
+  max-width: 400px;
+}
